@@ -1,0 +1,96 @@
+// GENERAL ANIMATIONS 
+
+@keyframes click {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.flash {
+    animation: flash 2s ease-in infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+// VALIDATE Element 
+
+
+.fa-hand-pointer {
+    position: absolute;
+    top: -4px;
+
+}
+
+.up_down {
+    animation: up_down 1s linear infinite;
+}
+
+@keyframes up_down {
+    0% {
+        top: 1px;
+    }
+
+    50% {
+        top: -3px;
+    }
+
+    100% {
+        top: 1px;
+    }
+}
+
+
+.fade_in {
+    animation: fade 1s ease-out both;
+}
+
+@keyframes fade {
+    from {
+        top: -30px;
+        opacity: 0;
+    }
+
+
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+
+.ghost {
+    animation: ghost 0.5s ease-out 1s both;
+}
+
+@keyframes ghost {
+    from {
+        opacity: 0;
+    }
+
+
+    to {
+        opacity: 1;
+    }
+}

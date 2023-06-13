@@ -1,0 +1,30 @@
+@use "./partials/animation" as *;
+@use "./partials/utilities" as *;
+@use "./partials/general" as *;
+@use "./partials/hover" as *;
+@import '~bootstrap/scss/bootstrap';
+
+
+.desktop_nav {
+    position: relative;
+    top: 56px;
+    height: calc(100vh - 56px);
+
+}
+
+.vh_100 {
+    height: calc(100vh - 66px);
+    ;
+}
+
+.no_undescore {
+    text-decoration: none;
+}
+
+.modular_content {
+    flex-grow: 2;
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    position: relative;
+    top: 56px;
+}

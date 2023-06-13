@@ -1,0 +1,47 @@
+.z_index {
+    z-index: 1000;
+}
+
+.fs_13 {
+    font-size: 13px !important;
+}
+
+.grow {
+    flex-grow: 100;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.banner {
+    position: sticky;
+    background-color: rgb(242, 231, 231);
+    // background-image: url(../../../public/img/Default_minimal_brush_strokes_with_very_bright_colorsadss_on_to_ba_0.jpg);
+    top: 0;
+    z-index: 5;
+}
+
+.text_shadow {
+    text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.622);
+}
+
+.strong_shadow {
+    filter: drop-shadow(1px 2px 3px rgba(25, 25, 25, 0.885));
+}
+
+
+.vh100 {
+    height: 100vh;
+}
+
+
+.nav_link {
+    text-decoration: none;
+    padding: 10px 0 10px 30px;
+    display: block;
+    color: #212529;
+    transition-duration: 0.4s;
+
+}

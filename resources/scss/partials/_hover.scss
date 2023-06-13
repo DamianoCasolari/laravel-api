@@ -1,0 +1,22 @@
+.td {
+    transition-duration: 0.4s;
+}
+
+
+.hover_bg:hover {
+    background-color: #212529;
+
+
+    & a {
+        color: #f8f9fa !important;
+    }
+}
+
+.rounded_opt {
+    border-radius: 20px !important;
+}
+
+
+.hover_light:hover {
+    color: #f8f9fa !important;
+}
