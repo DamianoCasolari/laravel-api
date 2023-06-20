@@ -136,7 +136,7 @@
                 <div class="mb-3 ">
                     <label for="functionality" class="col-4 col-form-label">functionality</label>
                     <div class="col-12">
-                        <textarea name="" id="" cols="30" rows="10" class="form-control w-100" name="languages_used"
+                        <textarea name="functionality" cols="30" rows="10" class="form-control w-100" name="languages_used"
                             id="languages_used" placeholder="Languages used">{{ old('functionality', $project->functionality) }}</textarea>
 
                         {{-- <input type="text" class="form-control w-100" name="functionality" id="functionality"
