@@ -6,6 +6,9 @@ use App\Http\Controllers\TypeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\API\LeadController;
+use App\Mail\NewLead;
+use App\Models\Lead;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +30,11 @@ Route::get('/', function () {
 // })->middleware(['auth', 'verified'])->name('dashboard');
 
 
+
+Route::get('/mailable', function () {
+    $lead = Lead::find(1);
+    return new NewLead($lead);
+});
 
 Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');

@@ -9,7 +9,7 @@
                 <i class="fa fa-plus" aria-hidden="true"></i>
                 Add new Projectt</a>
         </div>
-        <div class="d-none d-lg-block">
+        {{-- <div class="d-none d-lg-block">
             <div aria-label="Page navigation example" class=" me-2">
                 <ul class="pagination">
                     <li class="page-item ">
@@ -27,7 +27,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> --}}
     </div>
     @include('profile.partials.session_message')
 
@@ -118,7 +118,7 @@
             </tbody>
         </table>
     </div>
-    <div class="d-block d-lg-none">
+    {{-- <div class="d-block d-lg-none">
         <div aria-label="Page navigation example" class=" me-2">
             <ul class="pagination">
                 <li class="page-item ">
@@ -136,5 +136,5 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> --}}
 @endsection
