@@ -18,13 +18,5 @@
             </div>
         </div>
     </div>
-    <div id="portfolio" class="info_contaienr ps-4 vh_100 d-flex align-items-center justify-content-center">
-        <h1 class="">Projects </h1>
 
-
-
-
-
-
-    </div>
 @endsection
