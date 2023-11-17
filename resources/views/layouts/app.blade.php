@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm position-sticky top-0 z_index">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
-                    <img src="{{ asset('img/dc.jpg') }}" alt="DC Logo" height="40">
+                    <img src="{{ asset('img/shadowLogos.png') }}" alt="DC Logo" height="40">
                     {{-- config('app.name', 'Laravel') --}}
                 </a>
 
